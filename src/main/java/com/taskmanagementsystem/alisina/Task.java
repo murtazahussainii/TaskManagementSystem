@@ -1,4 +1,4 @@
-package com.bookmanagementsystem.alisina;
+package com.taskmanagementsystem.alisina;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,17 +6,15 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Book {
-
+public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String title;
-    private String author;
-    private String isbn;
+    private String description;
+    private boolean completed;
 
-    // Getters and setters
+    // Getters and Setters
     public Long getId() {
         return id;
     }
@@ -33,19 +31,19 @@ public class Book {
         this.title = title;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getDescription() {
+        return description;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public String getIsbn() {
-        return isbn;
+    public boolean isCompleted() {
+        return completed;
     }
 
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
+    public void setCompleted(boolean completed) {
+        this.completed = completed;
     }
 }
