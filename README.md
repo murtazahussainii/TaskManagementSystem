@@ -50,14 +50,13 @@ The Task Management Application is a simple yet efficient tool for managing task
 - Update the application.properties file with your database credentials.
 - Run the Spring Boot application:
 
-```bash
-  ./mvnw spring-boot:run
+	```bash
+	  ./mvnw spring-boot:run
 
 3. **Front Setup:**
    
 - Navigate to the `frontend` directory:
-  
-  ```bash
+    ```bash
   cd backend-react
 
 - Install dependencies:
