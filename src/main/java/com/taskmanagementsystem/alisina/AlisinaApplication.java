@@ -1,4 +1,4 @@
-package com.bookmanagementsystem.alisina;
+package com.taskmanagementsystem.alisina;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
