@@ -1,11 +1,11 @@
 # Task Management Application
 
-## User Interface
-![UI-screenshot](UI-screenshot.png)
-
 ## Overview
 
 The Task Management Application is a simple yet efficient tool for managing tasks. This application allows users to create, update, delete, and view tasks, providing an intuitive interface for managing their workload. It is built using **Spring Boot** for the backend and **React.js** for the frontend.
+
+## User Interface
+![UI-screenshot](UI-screenshot.png)
 
 ## Features
 
