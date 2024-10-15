@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+h1 {
+  color: #343a40; /* Dark color for the heading */
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Bootstrap warning color */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Bootstrap danger color */
+}
