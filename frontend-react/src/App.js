@@ -84,7 +84,7 @@ function App() {
           </div>
         </div>
         <button type="submit" className="btn btn-primary mt-3">
-          {editTaskId ? 'Update Task' : 'Add TasK'}
+          {editTaskId ? 'Update Task' : 'Add Task'}
         </button>
       </form>
       <div className="table-responsive">
